@@ -1,0 +1,27 @@
+more-itertools (4.2.0-1build1) focal; urgency=medium
+
+  * No-change rebuild to generate dependencies on python2.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 17 Dec 2019 12:37:37 +0000
+
+more-itertools (4.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * d/control:
+    - Set Vcs-* to salsa.debian.org
+    - Fix short description
+    - Drop B-D on nose and use setuptools for tests
+    - Drop B-D on python{,3}-vcversioner - not needed
+    - Bump Standards-Version to 4.1.4 (no changes)
+  * d/copyright: Use https protocol in Format field
+  * Bump debhelper compat level to 11
+  * Add pypy version of package
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 15 Jun 2018 21:16:00 +0200
+
+more-itertools (3.2.0-2) unstable; urgency=medium
+
+  * Initial Debian packaging (closes: #869213)
+
+ -- Ethan Ward <ethan.ward@mycroft.ai>  Tue, 01 Aug 2017 18:31:57 -0500
